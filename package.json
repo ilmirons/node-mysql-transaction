@@ -1,6 +1,6 @@
 {
   "name": "node-mysql-transaction",
-  "version": "0.1.0",
+  "version": "0.1.0+backcompat",
   "description": "transactions wrapper for node-mysql 2.0 driver",
   "main": "index.js",
   "directories": {
@@ -9,13 +9,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilmirons/node-mysql-transaction.git"
+  },
   "keywords": [
     "mysql",
     "mariadb",
     "transaction"
   ],
   "author": "Yoon, Hyuk-Beom",
+  "contributors": ["Andrea Mirone <amirone@athirat.com>" ],
   "license": "MIT",
   "readmeFilename": "README.md"
 }
